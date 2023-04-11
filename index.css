@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Clapperboard\ and\ popcorn.png);
+    background-repeat: no-repeat;
+    background-color: #D7C596;
+    margin: 0 auto;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-01 {
+    background-color: burlywood;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 13px 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem
+}   
+
+.btn-02 {
+    background-color: burlywood;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 13px 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem
+}
+
+.entrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+header img{
+    width: 60%
+}
+
+@media (max-width:800px){ 
+ 
+    .container{
+        background-image: url(img/mobile\ landing\ page\ \(1\).jpg);
+        
+    }
+
+}
