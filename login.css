@@ -42,7 +42,7 @@ fieldset{
     border-radius: 25px;
 }
 
-input[type="submit"]{
+button{
     background-color:yellow;
     border-radius: 10px;
     padding: 15px 25px;
@@ -72,7 +72,7 @@ input[type="password"]:focus{
     background-color: rgb(175, 175, 175);
 }
 
-input[type="submit"]:hover{
+button:hover{
     background-color: rgba(212, 212, 0, 0.793);
 box-shadow: rgba(0, 0, 0, 0.995) 4px 6px 12px;
 transform: scale(0.9);
