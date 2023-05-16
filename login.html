@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
   <div class="container">
-    <aside>
-    </aside>
-  <main>
+    <aside></aside>
+    <main>
+      <header> <img src="img/estrelinha.png" class="logo"> </header>
+      <div class="mensagem"></div>
+        <form action="" id="formulario">
+          <fieldset>
+            <p>Logar</p>
+            <div><br>
+              <label for="Nome">Nome</label><br>
+              <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
+              <div>
+                <br>
+                <label for="senha">Senha</label><br>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+              </div>
+              <br>
+              <div>
+                <label for="csenha">Confirmar Senha</label><br>
+                <input type="password" name="csenha" id="csenha" placeholder="Digite sua senha">
+              </div>
+              <br>
+              <button> Cadastrar</button>
+            </div>
+          </fieldset>
+        </form>
 
-    <header> <img src="img/estrelinha.png" class="logo"> </header>
-    <form action="" id >
-        <fieldset>
-          <p>Logar</p>
-        <div><br>
-          <label for="inome">Nome</label><br>
-          <input type="text" id="inome" name="memail">
-        <div>
-         <br>
-          <label for="isenha">Senha</label><br>
-          <input type="password" name="senha" id="senha">
-        </div>
-        <br>
-        <div>
-          <label for="csenha">Confirmar Senha</label><br>
-          <input type="password" name="csenha" id="csenha">
-        </div>
-        <br>
-        <button> Cadastrar</button>  
-        </div>
-        </fieldset>
-    </form>
-  </main>
-</div>
-<script src="login.js"></script>
+    </main>
+  </div>
+  <script src="login.js"></script>
 </body>
+
 </html>
