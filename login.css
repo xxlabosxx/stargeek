@@ -23,6 +23,7 @@ aside{
     background-image: url(img/Group\ 21.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
 
 main{
@@ -79,7 +80,7 @@ transform: scale(0.9);
 transition: 0.5s ease-out;
 }
 
-@media (max-width:950px){
+@media (max-width:650px){
     aside{
         display: none;
     }

@@ -15,20 +15,19 @@
     <div class="campo">
         <main>
             <fieldset>            
-                <form action="">
+                <form id="formulario">
                 <label for="">Nome da obra</label>
-                <input type="text" name="" placeholder=" Digite aqui">
-                <label>Nota</label>
-                <input type="range" name="" id="" min="1" max="10" >
+                <input id="inome" type="text" name="nome" placeholder=" Digite aqui">
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="ifoto">
                 <label for="">Escreva sobre</label>
-                <textarea name="Escreva sobre" placeholder=" Digite aqui" id="" cols="20"  rows="18"></textarea>
-                <input type="submit" value=" Excluir ">
-                <input type="submit" value=" Publicar ">
+                <textarea name="descricao" id="descricao" cols="30" rows="15" maxlength="70"></textarea>
+                <input type="submit" id="btncadastrar" value=" Publicar ">
             </form>
         </fieldset>
         </main>
     </div>
     </div>
-    
+    <script src="avaliar.js"></script>
 </body>
 </html>
